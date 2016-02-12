@@ -93,10 +93,6 @@ span a {
   opacity: .6;
 }
 
-/*form {
-  position: absolute;
-  width: 200px;
-}*/
 
 .form-content {
   position: absolute;
@@ -125,6 +121,15 @@ button {
   appearance:none;
   cursor:pointer;
 	}
+
+  button:hover {
+  opacity: 0.75;
+  }
+
+  .brandNAme:hover {
+    color: 	#DAA520;
+    opacity: .6;
+  }
 
   select {
     font-family: 'caviar_dreamsregular';
