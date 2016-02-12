@@ -166,31 +166,134 @@ input::-webkit-input-placeholder {
   color: #DFB7A5;
 }
 
-.dress-img img {
+/*.dress-img img {
 position: relative;
-height: 120px;
-width: 100px;
-}
+height: 125px;
+width: 125px;
+}*/
 
 .dress-img {
   float: right;
-  margin-top: 60px;
+  margin-top: 30px;
   margin-right: 100px;
   padding: 20px;
 }
 
-.dress1 {
+.dress1Show {
   margin-bottom: 15px;
   border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
+  position: relative;
+  height: 125px;
+  width: 125px;
 }
-.dress2 {
+
+.dress1Hide {
   margin-bottom: 15px;
   border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
+  width: 236px;
+  height: 339px;
+}
+
+.dress2Show {
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
+  position: relative;
+  height: 125px;
+  width: 125px;
+}
+
+.dress2Hide {
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
+  width: 236px;
+  height: 338px;
+}
+.dress3Show {
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
+  position: relative;
+  height: 125px;
+  width: 125px;
+}
+
+.dress3Hide {
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
+  width: 236px;
+  height: 338px;
+}
+.dress4Show {
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
+  position: relative;
+  height: 125px;
+  width: 125px;
+}
+
+.dress4Hide {
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
+  width: 236px;
+  height: 338px;
+}
+
+/*.dress2 {
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
 }
 .dress3 {
   margin-bottom: 15px;
   border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
 }
 .dress4 {
   border: 1px solid #000;
+  box-shadow: 2px 2px 7px #000;
+}*/
+
+.dress1 img:last-child {
+  display: none;
+}
+.dress1:hover img {
+  display: none;
+}
+.dress1:hover img:last-child {
+  display: inline-block;
+}
+
+.dress2 img:last-child {
+  display: none;
+}
+.dress2:hover img {
+  display: none;
+}
+.dress2:hover img:last-child {
+  display: inline-block;
+}
+.dress3 img:last-child {
+  display: none;
+}
+.dress3:hover img {
+  display: none;
+}
+.dress3:hover img:last-child {
+  display: inline-block;
+}
+.dress4 img:last-child {
+  display: none;
+}
+.dress4:hover img {
+  display: none;
+}
+.dress4:hover img:last-child {
+  display: inline-block;
 }
