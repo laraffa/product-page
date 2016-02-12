@@ -88,5 +88,69 @@ span a {
 
 .form-container p {
   font-family: 'Pacifico', cursive;
-  font-size: 20px;
+  font-size: 32px;
+  color: 	#DAA520;
+  opacity: .6;
+}
+
+button {
+  font-family: 'caviar_dreamsregular';
+  padding:20px 50px;
+  border:1px solid #DFB7A5;
+  margin: 0;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  -webkit-box-shadow: 0 3px 0 #292A36, 0 -1px #DFB7A5 inset;
+  -moz-box-shadow: 0 3px 0 #292A36, 0 -1px #DFB7A5 inset;
+  box-shadow: 0 3px 0 #292A36, 0 -1px #DFB7A5 inset;
+  background: #292A36;
+  color:#DFB7A5;
+  border:none;
+  outline:none;
+  display: inline-block;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor:pointer;
+	}
+
+  select {
+    font-family: 'caviar_dreamsregular';
+    padding:10px;
+    border:1px solid #DFB7A5;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #292A36, 0 -1px #DFB7A5 inset;
+    -moz-box-shadow: 0 3px 0 #292A36, 0 -1px #DFB7A5 inset;
+    box-shadow: 0 3px 0 #292A36, 0 -1px #DFB7A5 inset;
+    background: #292A36;
+    color:#DFB7A5;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+  input {
+    font-family: 'caviar_dreamsregular';
+    padding:10px;
+    border:1px solid #DFB7A5;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #292A36, 0 -1px #DFB7A5 inset;
+    -moz-box-shadow: 0 3px 0 #292A36, 0 -1px #DFB7A5 inset;
+    box-shadow: 0 3px 0 #292A36, 0 -1px #DFB7A5 inset;
+    background: #292A36;
+    color:#DFB7A5;
+}
+
+input::-webkit-input-placeholder {
+  color: #DFB7A5;
 }
