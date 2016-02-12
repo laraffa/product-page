@@ -7,7 +7,7 @@ body, html {
 
 .container {
   width: 1500px;
-  height: 1000px;
+  height: 1300px;
   margin: 0 auto;
   background-image: url("../img/background.jpg");
 
@@ -76,7 +76,7 @@ span a {
   position: absolute;
   clear: both;
   width: 600px;
-  height: 700px;
+  height: 900px;
   background-color: #FBF7F7;
   margin-left: 820px;
   margin-top: 20px;
@@ -86,7 +86,7 @@ span a {
   padding-top: 20px;
 }
 
-.form-container p {
+#subtext {
   font-family: 'Pacifico', cursive;
   font-size: 32px;
   color: 	#DAA520;
@@ -287,4 +287,9 @@ width: 125px;
   width: 100px;
   height: 100px;
   margin-left: 20px;
+}
+
+.details {
+  margin-top: 610px;
+  padding-right: 30px;
 }
