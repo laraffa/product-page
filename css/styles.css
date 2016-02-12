@@ -73,7 +73,7 @@ span a {
 
 .form-container {
   box-sizing: border-box;
-  position: relative;
+  position: absolute;
   clear: both;
   width: 600px;
   height: 700px;
@@ -91,6 +91,17 @@ span a {
   font-size: 32px;
   color: 	#DAA520;
   opacity: .6;
+}
+
+/*form {
+  position: absolute;
+  width: 200px;
+}*/
+
+.form-content {
+  position: absolute;
+  width: 200px;
+  margin-left: 0;
 }
 
 button {
@@ -153,4 +164,33 @@ button {
 
 input::-webkit-input-placeholder {
   color: #DFB7A5;
+}
+
+.dress-img img {
+position: relative;
+height: 120px;
+width: 100px;
+}
+
+.dress-img {
+  float: right;
+  margin-top: 60px;
+  margin-right: 100px;
+  padding: 20px;
+}
+
+.dress1 {
+  margin-bottom: 15px;
+  border: 1px solid #000;
+}
+.dress2 {
+  margin-bottom: 15px;
+  border: 1px solid #000;
+}
+.dress3 {
+  margin-bottom: 15px;
+  border: 1px solid #000;
+}
+.dress4 {
+  border: 1px solid #000;
 }
