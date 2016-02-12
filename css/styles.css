@@ -1,0 +1,64 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: 'caviar_dreamsregular';
+}
+
+.container {
+  width: 1500px;
+  height: 1000px;
+  margin: 0 auto;
+  background-image: url("../img/background.jpg");
+
+}
+
+span a {
+  color: #000;
+  text-decoration: none;
+  padding-top: 30px;
+}
+
+.container .heading {
+  background-color: #fff;
+  opacity: .7;
+  max-width: 1700px;
+  height: 150px;
+  padding-top: 30px;
+}
+
+.brandNAme {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+.gift {
+  padding-left: 150px;
+}
+
+.about {
+  padding-left: 150px;
+}
+
+.exp {
+  padding-left: 150px;
+}
+
+.search {
+  padding-left: 150px;
+}
+
+.saleImage {
+  position: relative;
+  background-image: url("../img/dress0.jpg");
+  height: 580px;
+  width: 580px;
+  margin-left: 80px;
+  margin-top: 100px;
+  border: 2px solid #000;
+  box-shadow: 5px 5px 15px #000;
+
+}
