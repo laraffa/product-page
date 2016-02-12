@@ -52,7 +52,7 @@ span a {
 }
 
 .saleImage {
-  position: relative;
+  position: absolute;
   background-image: url("../img/dress0.jpg");
   height: 580px;
   width: 580px;
@@ -63,10 +63,23 @@ span a {
 }
 
 #overTitle {
+  position: absolute;
   font-family: 'Pacifico', cursive;
   font-size: 120px;
-  padding-top: 300px;
-  padding-left: 22px;
+  padding-top: 400px;
   color: 	#DAA520;
   opacity: .3;
+}
+
+.form-container {
+  box-sizing: border-box;
+  position: relative;
+  clear: both;
+  width: 600px;
+  height: 700px;
+  background-color: #FBF7F7;
+  margin-left: 820px;
+  margin-top: 20px;
+  border: 2px solid #000;
+  box-shadow: 5px 5px 15px #000;
 }
